@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c417c685-b9fb-4417-a9b7-66ddf4a50427" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.webpack/service/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4450">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MESSAGE</find>
+      <find>Message</find>
+      <find>message</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>POST</replace>
+      <replace>COMMENT</replace>
+      <replace>Comment</replace>
+      <replace>comment</replace>
+      <replace>Post</replace>
+      <replace>post</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/src/graphql/service.js" />
+        <option value="$PROJECT_DIR$/src/post/handler.js" />
+        <option value="$PROJECT_DIR$/src/post/reducer.js" />
+        <option value="$PROJECT_DIR$/src/comment/handler.js" />
+        <option value="$PROJECT_DIR$/src/comment/reducer.js" />
+        <option value="$PROJECT_DIR$/src/post/service.js" />
+        <option value="$PROJECT_DIR$/src/comment/service.js" />
+        <option value="$PROJECT_DIR$/src/graphql/schema.js" />
+        <option value="$PROJECT_DIR$/curl.txt" />
+        <option value="$PROJECT_DIR$/src/utils/dynamo_adapter.js" />
+        <option value="$PROJECT_DIR$/queries.txt" />
+        <option value="$PROJECT_DIR$/serverless.yml" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="23" />
+    <option name="width" value="964" />
+    <option name="height" value="1001" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sls-bloggs-be" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sls-bloggs-be" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sls-bloggs-be" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sls-bloggs-be" type="462c0819:PsiDirectoryNode" />
+              <item name=".serverless" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sls-bloggs-be" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sls-bloggs-be" type="462c0819:PsiDirectoryNode" />
+              <item name=".webpack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sls-bloggs-be" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sls-bloggs-be" type="462c0819:PsiDirectoryNode" />
+              <item name=".webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v8.6.0/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c417c685-b9fb-4417-a9b7-66ddf4a50427" name="Default" comment="" />
+      <created>1508853835182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508853835182</updated>
+      <workItem from="1508853836411" duration="4363000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4363000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="23" width="964" height="1001" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33195022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30030644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/comment/__test__/messages_api.spec.int.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/post/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/post/handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <marker date="1508854151000" expanded="true" signature="75:400" ph="/** Serverless Module: Lambda Handler ...*/" />
+            <marker date="1508854151000" expanded="true" signature="586:1112" ph="{...}" />
+            <marker date="1508854151000" expanded="true" signature="676:1068" ph="{...}" />
+            <marker date="1508854151000" expanded="true" signature="694:776" ph="..." />
+            <marker date="1508854151000" expanded="true" signature="796:881" ph="..." />
+            <marker date="1508854151000" expanded="true" signature="899:973" ph="..." />
+            <marker date="1508854151000" expanded="true" signature="990:1064" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/post/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <marker date="1508854200000" expanded="true" signature="77:862" ph="{...}" />
+            <marker date="1508854200000" expanded="true" signature="168:860" ph="{...}" />
+            <marker date="1508854200000" expanded="true" signature="193:367" ph="..." />
+            <marker date="1508854200000" expanded="true" signature="392:505" ph="..." />
+            <marker date="1508854200000" expanded="true" signature="530:618" ph="..." />
+            <marker date="1508854200000" expanded="true" signature="642:753" ph="..." />
+            <marker date="1508854200000" expanded="true" signature="776:821" ph="..." />
+            <marker date="1508854200000" expanded="true" signature="835:856" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comment/handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <marker date="1508854338000" expanded="true" signature="75:400" ph="/** Serverless Module: Lambda Handler ...*/" />
+            <marker date="1508854338000" expanded="true" signature="586:1124" ph="{...}" />
+            <marker date="1508854338000" expanded="true" signature="676:1080" ph="{...}" />
+            <marker date="1508854338000" expanded="true" signature="694:779" ph="..." />
+            <marker date="1508854338000" expanded="true" signature="799:887" ph="..." />
+            <marker date="1508854338000" expanded="true" signature="905:982" ph="..." />
+            <marker date="1508854338000" expanded="true" signature="999:1076" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comment/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <marker date="1508854371000" expanded="true" signature="77:901" ph="{...}" />
+            <marker date="1508854371000" expanded="true" signature="168:899" ph="{...}" />
+            <marker date="1508854371000" expanded="true" signature="196:376" ph="..." />
+            <marker date="1508854371000" expanded="true" signature="404:523" ph="..." />
+            <marker date="1508854371000" expanded="true" signature="551:642" ph="..." />
+            <marker date="1508854371000" expanded="true" signature="669:786" ph="..." />
+            <marker date="1508854371000" expanded="true" signature="812:860" ph="..." />
+            <marker date="1508854371000" expanded="true" signature="874:895" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484750291000" expanded="true" signature="7:122" ph="..." />
+            <marker date="1484750291000" expanded="true" signature="123:448" ph="/** Serverless Module: Lambda Handler ...*/" />
+            <marker date="1484750291000" expanded="true" signature="632:1256" ph="{...}" />
+            <marker date="1484750291000" expanded="true" signature="736:1204" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comment/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <marker date="1508854493000" expanded="true" signature="193:255" ph="[...]" />
+            <marker date="1508854493000" expanded="true" signature="305:399" ph="{...}" />
+            <marker date="1508854493000" expanded="true" signature="448:497" ph="{...}" />
+            <marker date="1508854493000" expanded="true" signature="539:909" ph="{...}" />
+            <marker date="1508854493000" expanded="true" signature="988:1046" ph="{...}" />
+            <marker date="1508854493000" expanded="true" signature="1101:1145" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <marker date="1508853939000" expanded="true" signature="100:270" ph="/*...*/" />
+            <marker date="1508853939000" expanded="true" signature="342:379" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphql/handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <marker date="1508364674000" expanded="true" signature="40:365" ph="/** Serverless Module: Lambda Handler ...*/" />
+            <marker date="1508364674000" expanded="true" signature="469:517" ph="//..." />
+            <marker date="1508364674000" expanded="true" signature="583:653" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/post/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <marker date="1508854463000" expanded="true" signature="184:252" ph="[...]" />
+            <marker date="1508854463000" expanded="true" signature="299:387" ph="{...}" />
+            <marker date="1508854463000" expanded="true" signature="433:479" ph="{...}" />
+            <marker date="1508854463000" expanded="true" signature="518:876" ph="{...}" />
+            <marker date="1508854463000" expanded="true" signature="949:1004" ph="{...}" />
+            <marker date="1508854463000" expanded="true" signature="1056:1097" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphql/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <marker date="1508854127000" expanded="true" signature="7:190" ph="..." />
+            <marker date="1508854127000" expanded="true" signature="295:893" ph="{...}" />
+            <marker date="1508854127000" expanded="true" signature="570:650" ph="//..." />
+            <marker date="1508854127000" expanded="true" signature="720:889" ph="{...}" />
+            <marker date="1508854127000" expanded="true" signature="799:883" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphql/schema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="96" column="32" lean-forward="true" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+          <folding>
+            <marker date="1508855161000" expanded="true" signature="7:113" ph="..." />
+            <marker date="1508855161000" expanded="true" signature="144:4140" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="184:511" ph="{&quot;name&quot;: 'User'...}" />
+            <marker date="1508855161000" expanded="true" signature="269:506" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="356:500" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="425:492" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="552:937" ph="{&quot;name&quot;: 'Post'...}" />
+            <marker date="1508855161000" expanded="true" signature="620:932" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="779:926" ph="{&quot;type&quot;: User...}" />
+            <marker date="1508855161000" expanded="true" signature="825:918" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="979:2069" ph="{&quot;name&quot;: 'PostQueries'...}" />
+            <marker date="1508855161000" expanded="true" signature="1070:2064" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="1085:1238" ph="{&quot;description&quot;: 'List of users'...}" />
+            <marker date="1508855161000" expanded="true" signature="1180:1230" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="1252:1508" ph="{&quot;type&quot;: User...}" />
+            <marker date="1508855161000" expanded="true" signature="1333:1400" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="1432:1500" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="1523:1782" ph="{&quot;description&quot;: 'List of posts'...}" />
+            <marker date="1508855161000" expanded="true" signature="1614:1665" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="1697:1774" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="1796:2057" ph="{&quot;type&quot;: Post...}" />
+            <marker date="1508855161000" expanded="true" signature="1871:1938" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="1970:2049" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="2115:4032" ph="{&quot;name&quot;: 'PostMutations'...}" />
+            <marker date="1508855161000" expanded="true" signature="2156:4031" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="2176:2413" ph="{&quot;type&quot;: User...}" />
+            <marker date="1508855161000" expanded="true" signature="2248:2301" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="2344:2405" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="2433:2750" ph="{&quot;type&quot;: User...}" />
+            <marker date="1508855161000" expanded="true" signature="2507:2637" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="2680:2742" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="2770:3028" ph="{&quot;type&quot;: User...}" />
+            <marker date="1508855161000" expanded="true" signature="2856:2923" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="2966:3020" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="3048:3346" ph="{&quot;type&quot;: Post...}" />
+            <marker date="1508855161000" expanded="true" signature="3120:3230" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="3273:3338" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="3366:3743" ph="{&quot;type&quot;: Post...}" />
+            <marker date="1508855161000" expanded="true" signature="3440:3627" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="3670:3735" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="3763:4026" ph="{&quot;type&quot;: Post...}" />
+            <marker date="1508855161000" expanded="true" signature="3843:3910" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="3953:4018" ph="{...}" />
+            <marker date="1508855161000" expanded="true" signature="4071:4118" ph="{&quot;query&quot;: Query...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <marker date="1484259645000" expanded="true" signature="191:230" ph="[...]" />
+            <marker date="1484259645000" expanded="true" signature="268:586" ph="{...}" />
+            <marker date="1484259645000" expanded="true" signature="417:555" ph="{...}" />
+            <marker date="1484259645000" expanded="true" signature="623:667" ph="{...}" />
+            <marker date="1484259645000" expanded="true" signature="725:779" ph="{...}" />
+            <marker date="1484259645000" expanded="true" signature="840:896" ph="{...}" />
+            <marker date="1484259645000" expanded="true" signature="931:973" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/dynamo_adapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <marker date="1508856125000" expanded="false" signature="7:51" ph="..." />
+            <marker date="1508856125000" expanded="true" signature="138:300" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="227:296" ph="{&quot;region&quot;: 'localhost'...}" />
+            <marker date="1508856125000" expanded="true" signature="306:440" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="354:437" ph="{&quot;sessionToken&quot;: process.env.AWS_SESSION_TOKEN...}" />
+            <marker date="1508856125000" expanded="true" signature="555:1888" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="941:1155" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="1002:1127" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="1326:1633" ph="{&quot;TableName&quot;: tableName...}" />
+            <marker date="1508856125000" expanded="true" signature="1752:1884" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="1952:2240" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="1971:2039" ph="{&quot;TableName&quot;: tableName...}" />
+            <marker date="1508856125000" expanded="true" signature="2139:2236" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="2306:2590" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="2325:2429" ph="{&quot;TableName&quot;: tableName...}" />
+            <marker date="1508856125000" expanded="true" signature="2362:2387" ph="{&quot;id&quot;: `${id}`...}" />
+            <marker date="1508856125000" expanded="true" signature="2485:2586" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="2646:3052" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="2880:2928" ph="{&quot;TableName&quot;: tableName...}" />
+            <marker date="1508856125000" expanded="true" signature="3119:3565" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="3138:3205" ph="{&quot;TableName&quot;: tableName...}" />
+            <marker date="1508856125000" expanded="true" signature="3175:3201" ph="{&quot;null&quot;: id...}" />
+            <marker date="1508856125000" expanded="true" signature="3271:3561" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="3286:3425" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="3431:3557" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="3636:3940" ph="{...}" />
+            <marker date="1508856125000" expanded="true" signature="3828:3876" ph="{&quot;TableName&quot;: tableName...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverless.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="52" column="44" lean-forward="false" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+          <folding>
+            <marker date="1508856984000" expanded="true" signature="86:92" ph="bloggs" />
+            <marker date="1508856984000" expanded="true" signature="93:186" ph="provider: &lt;5 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="112:115" ph="aws" />
+            <marker date="1508856984000" expanded="true" signature="127:137" ph="nodejs6.10" />
+            <marker date="1508856984000" expanded="true" signature="149:152" ph="dev" />
+            <marker date="1508856984000" expanded="true" signature="164:166" ph="sw" />
+            <marker date="1508856984000" expanded="true" signature="177:186" ph="eu-west-1" />
+            <marker date="1508856984000" expanded="true" signature="187:661" ph="custom: &lt;8 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="206:239" ph="${opt:sta…der.stage}" />
+            <marker date="1508856984000" expanded="true" signature="256:300" ph="${self:se…age}-users" />
+            <marker date="1508856984000" expanded="true" signature="320:367" ph="${self:se…}-comments" />
+            <marker date="1508856984000" expanded="true" signature="384:428" ph="${self:se…age}-posts" />
+            <marker date="1508856984000" expanded="true" signature="444:488" ph="${self:se…age}-users" />
+            <marker date="1508856984000" expanded="true" signature="507:554" ph="${self:se…}-comments" />
+            <marker date="1508856984000" expanded="true" signature="570:614" ph="${self:se…age}-posts" />
+            <marker date="1508856984000" expanded="true" signature="617:661" ph="dynamodb: &lt;1 key&gt;" />
+            <marker date="1508856984000" expanded="true" signature="633:661" ph="start: &lt;1 key&gt;" />
+            <marker date="1508856984000" expanded="true" signature="657:661" ph="true" />
+            <marker date="1508856984000" expanded="true" signature="663:747" ph="plugins: &lt;3 items&gt;" />
+            <marker date="1508856984000" expanded="true" signature="676:694" ph="serverless-webpack" />
+            <marker date="1508856984000" expanded="true" signature="699:724" ph="serverles…modb-local" />
+            <marker date="1508856984000" expanded="true" signature="729:747" ph="serverless-offline" />
+            <marker date="1508856984000" expanded="true" signature="749:794" ph="package: &lt;1 key&gt;" />
+            <marker date="1508856984000" expanded="true" signature="760:794" ph="include: &lt;2 items&gt;" />
+            <marker date="1508856984000" expanded="true" signature="775:783" ph="index.js" />
+            <marker date="1508856984000" expanded="true" signature="790:794" ph="src/" />
+            <marker date="1508856984000" expanded="true" signature="795:1276" ph="functions: &lt;1 key&gt;" />
+            <marker date="1508856984000" expanded="true" signature="808:1276" ph="graphql: &lt;4 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="830:843" ph="index.graphql" />
+            <marker date="1508856984000" expanded="true" signature="848:1166" ph="environment: &lt;6 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="882:908" ph="${self:cu…ble_users}" />
+            <marker date="1508856984000" expanded="true" signature="933:962" ph="${self:cu…_comments}" />
+            <marker date="1508856984000" expanded="true" signature="984:1010" ph="${self:cu…ble_posts}" />
+            <marker date="1508856984000" expanded="true" signature="1033:1060" ph="${self:cu…bda_users}" />
+            <marker date="1508856984000" expanded="true" signature="1086:1116" ph="${self:cu…_comments}" />
+            <marker date="1508856984000" expanded="true" signature="1139:1166" ph="${self:cu…bda_posts}" />
+            <marker date="1508856984000" expanded="true" signature="1180:1182" ph="30" />
+            <marker date="1508856984000" expanded="true" signature="1187:1276" ph="events: &lt;1 item&gt;" />
+            <marker date="1508856984000" expanded="true" signature="1203:1276" ph="http: &lt;3 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="1225:1232" ph="graphql" />
+            <marker date="1508856984000" expanded="true" signature="1251:1255" ph="POST" />
+            <marker date="1508856984000" expanded="true" signature="1272:1276" ph="true" />
+            <marker date="1508856984000" expanded="true" signature="1277:3082" ph="resources: &lt;1 key&gt;" />
+            <marker date="1508856984000" expanded="true" signature="1290:3082" ph="Resources: &lt;4 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="1305:1731" ph="UsersDynamo: &lt;3 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="1330:1350" ph="AWS::DynamoDB::Table" />
+            <marker date="1508856984000" expanded="true" signature="1373:1379" ph="Retain" />
+            <marker date="1508856984000" expanded="true" signature="1386:1731" ph="Properties: &lt;4 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="1418:1444" ph="${self:cu…ble_users}" />
+            <marker date="1508856984000" expanded="true" signature="1453:1547" ph="AttributeDefinitions: &lt;1 item&gt;" />
+            <marker date="1508856984000" expanded="true" signature="1516:1518" ph="id" />
+            <marker date="1508856984000" expanded="true" signature="1556:1636" ph="KeySchema: &lt;1 item&gt;" />
+            <marker date="1508856984000" expanded="true" signature="1608:1610" ph="id" />
+            <marker date="1508856984000" expanded="true" signature="1632:1636" ph="HASH" />
+            <marker date="1508856984000" expanded="true" signature="1645:1731" ph="Provision…Throughput: &lt;2 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="1736:2156" ph="PostsDynamo: &lt;3 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="1761:1781" ph="AWS::DynamoDB::Table" />
+            <marker date="1508856984000" expanded="true" signature="1804:1810" ph="Retain" />
+            <marker date="1508856984000" expanded="true" signature="1817:2156" ph="Properties: &lt;4 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="1848:1874" ph="${self:cu…ble_posts}" />
+            <marker date="1508856984000" expanded="true" signature="1883:1975" ph="AttributeDefinitions: &lt;1 item&gt;" />
+            <marker date="1508856984000" expanded="true" signature="1944:1946" ph="id" />
+            <marker date="1508856984000" expanded="true" signature="1984:2062" ph="KeySchema: &lt;1 item&gt;" />
+            <marker date="1508856984000" expanded="true" signature="2034:2036" ph="id" />
+            <marker date="1508856984000" expanded="true" signature="2058:2062" ph="HASH" />
+            <marker date="1508856984000" expanded="true" signature="2071:2156" ph="Provision…Throughput: &lt;2 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="2161:2587" ph="CommentsDynamo: &lt;3 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="2189:2209" ph="AWS::DynamoDB::Table" />
+            <marker date="1508856984000" expanded="true" signature="2232:2238" ph="Retain" />
+            <marker date="1508856984000" expanded="true" signature="2245:2587" ph="Properties: &lt;4 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="2276:2305" ph="${self:cu…_comments}" />
+            <marker date="1508856984000" expanded="true" signature="2314:2406" ph="AttributeDefinitions: &lt;1 item&gt;" />
+            <marker date="1508856984000" expanded="true" signature="2375:2377" ph="id" />
+            <marker date="1508856984000" expanded="true" signature="2415:2493" ph="KeySchema: &lt;1 item&gt;" />
+            <marker date="1508856984000" expanded="true" signature="2465:2467" ph="id" />
+            <marker date="1508856984000" expanded="true" signature="2489:2493" ph="HASH" />
+            <marker date="1508856984000" expanded="true" signature="2502:2587" ph="Provision…Throughput: &lt;2 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="2592:3082" ph="DynamoDBIamPolicy: &lt;3 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="2623:2639" ph="AWS::IAM::Policy" />
+            <marker date="1508856984000" expanded="true" signature="2657:2668" ph="PostsDynamo" />
+            <marker date="1508856984000" expanded="true" signature="2675:3082" ph="Properties: &lt;3 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="2707:2722" ph="lambda-dynamodb" />
+            <marker date="1508856984000" expanded="true" signature="2731:3027" ph="PolicyDocument: &lt;2 keys&gt;" />
+            <marker date="1508856984000" expanded="true" signature="2766:2778" ph="2012-10-17" />
+            <marker date="1508856984000" expanded="true" signature="2789:3027" ph="Statement: &lt;1 item&gt;" />
+            <marker date="1508856984000" expanded="true" signature="2822:2827" ph="Allow" />
+            <marker date="1508856984000" expanded="true" signature="2842:2984" ph="Action: &lt;4 items&gt;" />
+            <marker date="1508856984000" expanded="true" signature="2868:2884" ph="dynamodb:GetItem" />
+            <marker date="1508856984000" expanded="true" signature="2903:2919" ph="dynamodb:PutItem" />
+            <marker date="1508856984000" expanded="true" signature="2938:2951" ph="dynamodb:Scan" />
+            <marker date="1508856984000" expanded="true" signature="2970:2984" ph="dynamodb:Query" />
+            <marker date="1508856984000" expanded="true" signature="3009:3027" ph="arn:aws:dynamodb:*" />
+            <marker date="1508856984000" expanded="true" signature="3036:3082" ph="Roles: &lt;1 item&gt;" />
+            <marker date="1508856984000" expanded="true" signature="3060:3082" ph="IamRoleLa…aExecution" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queries.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508855520000" expanded="true" signature="0:1475" ph="{&quot;name&quot;: &quot;sls-bloggs-be&quot;...}" />
+            <marker date="1508855520000" expanded="true" signature="131:471" ph="{&quot;test&quot;: &quot;mocha --require babel-polyfill --compilers js:babel-register ./src/**/*.spec.js&quot;...}" />
+            <marker date="1508855520000" expanded="true" signature="494:1231" ph="{&quot;babel-core&quot;: &quot;^6.26.0&quot;...}" />
+            <marker date="1508855520000" expanded="true" signature="1251:1424" ph="{&quot;aws-sdk&quot;: &quot;^2.135.0&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <marker date="1508858241000" expanded="true" signature="48:424" ph="{&quot;entry&quot;: &quot;./index.js&quot;...}" />
+            <marker date="1508858241000" expanded="true" signature="101:304" ph="{...}" />
+            <marker date="1508858241000" expanded="true" signature="116:300" ph="[...]" />
+            <marker date="1508858241000" expanded="true" signature="124:220" ph="{&quot;loader&quot;: &quot;babel-loader&quot;...}" />
+            <marker date="1508858241000" expanded="true" signature="228:294" ph="{...}" />
+            <marker date="1508858241000" expanded="true" signature="316:422" ph="{&quot;libraryTarget&quot;: &quot;commonjs&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <marker date="1483019668000" expanded="true" signature="0:74" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.webpack/service/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4450">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,177 @@
+mutation{
+  createUser(
+    userName: "jonas"
+  ){
+    id,
+    userName
+  }
+}
+
+mutation{
+  updateUser(
+    id: "8045ca24-2d77-4e58-bb50-257ffdafa2e2",
+    userName: "jonas1"
+  ){
+    id,
+    userName
+  }
+}
+
+mutation{
+  deleteUser(
+    id: "8045ca24-2d77-4e58-bb50-257ffdafa2e2"
+  ){
+    id
+  }
+}
+
+query{
+  users{
+    id,
+    userName
+  }
+}
+
+{
+  "data": {
+    "users": [
+      {
+        "id": "76779e5b-e3c4-4a8a-8ca7-712fa56cf88b",
+        "userName": "stephen"
+      },
+      {
+        "id": "a26c6ce0-612d-41c7-b584-905703d65396",
+        "userName": "jonas"
+      }
+    ]
+  }
+}
+
+query{
+   posts{
+    id,
+    post,
+    userId
+  }
+}
+
+
+{
+  "data": {
+    "messages": [
+      {
+        "id": "0c35f697-0eb5-4676-865f-d4f348f53fbf",
+        "message": "ggghhhh",
+        "userId": null
+      },
+      {
+        "id": "f8e608f5-3475-4959-bfc0-cc808038329b",
+        "message": "2 message",
+        "userId": null
+      },
+      {
+        "id": "bc7aa498-8cf7-4734-9701-f3f0f3ae79f4",
+        "message": "fred 500",
+        "userId": null
+      },
+      {
+        "id": "a6d7dae3-9893-48d5-bc22-5aa51f79edf9",
+        "message": "fred3",
+        "userId": null
+      }
+    ]
+  }
+}
+
+
+mutation{
+  updateMessage(
+    id: "a6d7dae3-9893-48d5-bc22-5aa51f79edf9",
+    message: "4 message",
+    userId: "a26c6ce0-612d-41c7-b584-905703d65396"
+  ){
+    id,
+    message,
+    userId
+  }
+}
+
+query{
+  user(id: "a26c6ce0-612d-41c7-b584-905703d65396"){
+    id,
+    userName,
+    messages{
+      id,
+      message,
+      userId
+    }
+  }
+}
+
+{
+  "data": {
+    "user": {
+      "id": "a26c6ce0-612d-41c7-b584-905703d65396",
+      "userName": "jonas",
+      "messages": [
+        {
+          "id": "a6d7dae3-9893-48d5-bc22-5aa51f79edf9",
+          "message": "4 message",
+          "userId": "a26c6ce0-612d-41c7-b584-905703d65396"
+        }
+      ]
+    }
+  }
+}
+
+mutation{
+  createMessage(
+    message: "gql message",
+    userId: "a26c6ce0-612d-41c7-b584-905703d65396"
+  ){
+    id,
+    message,
+    userId,
+    createdAt
+  }
+}
+
+{
+  "data": {
+    "createMessage": {
+      "id": "689ec34c-525f-46c7-ac19-0ce5e72e6ee4",
+      "message": "gql message",
+      "userId": "a26c6ce0-612d-41c7-b584-905703d65396",
+      "createdAt": "Thu Jan 12 2017 21:47:33 GMT+0000 (UTC)"
+    }
+  }
+}
+
+mutation{
+  updateMessage(
+    id: "689ec34c-525f-46c7-ac19-0ce5e72e6ee4",
+    message: "gql message X",
+    userId: "a26c6ce0-612d-41c7-b584-905703d65396"
+  ){
+    id,
+    message,
+    userId,
+    createdAt
+  }
+}
+
+mutation{
+  deleteMessage(
+    id: "689ec34c-525f-46c7-ac19-0ce5e72e6ee4"
+  ){
+    id
+  }
+}
+
+query{
+  messages(userId: "a26c6ce0-612d-41c7-b584-905703d65396"){
+    id,
+    message,
+    userId
+  }
+}

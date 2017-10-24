@@ -1,0 +1,113 @@
+# this defines the stack
+# the complete name of the stack is <stack>-<stage>
+service: bloggs
+provider: 
+  name: aws
+  runtime: nodejs6.10  
+  stage: dev
+  profile: sw
+  region: eu-west-1
+custom:
+  myStage: ${opt:stage, self:provider.stage}
+  lambda_users: ${self:service}-${self:provider.stage}-users
+  lambda_comments: ${self:service}-${self:provider.stage}-comments
+  lambda_posts: ${self:service}-${self:provider.stage}-posts
+  table_users: ${self:service}-${self:provider.stage}-users
+  table_comments: ${self:service}-${self:provider.stage}-comments
+  table_posts: ${self:service}-${self:provider.stage}-posts
+  dynamodb:
+      start:
+        migrate: true
+
+plugins:
+  - serverless-webpack
+  - serverless-dynamodb-local
+  - serverless-offline
+
+package:
+  include:
+    - index.js
+    - src/
+functions:
+  graphql:
+    handler: index.graphql
+    environment:
+        Users_Table: ${self:custom.table_users}
+        Comments_Table: ${self:custom.table_comments}
+        Posts_Table: ${self:custom.table_posts}
+        Users_Lambda: ${self:custom.lambda_users}
+        Comments_Lambda: ${self:custom.lambda_comments}
+        Posts_Lambda: ${self:custom.lambda_posts}
+    timeout: 30
+    events:
+      - http:
+          path: graphql
+          method: POST
+          cors: true
+resources:
+  Resources:
+    UsersDynamo:
+      Type: AWS::DynamoDB::Table
+      DeletionPolicy: Retain
+      Properties: 
+        TableName: ${self:custom.table_users}
+        AttributeDefinitions: 
+          - 
+            AttributeName: id
+            AttributeType: S
+        KeySchema: 
+          - 
+            AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput: 
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+    PostsDynamo:
+      Type: AWS::DynamoDB::Table
+      DeletionPolicy: Retain
+      Properties:
+        TableName: ${self:custom.table_posts}
+        AttributeDefinitions:
+          -
+            AttributeName: id
+            AttributeType: S
+        KeySchema:
+          -
+            AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+    CommentsDynamo:
+      Type: AWS::DynamoDB::Table
+      DeletionPolicy: Retain
+      Properties:
+        TableName: ${self:custom.table_comments}
+        AttributeDefinitions:
+          -
+            AttributeName: id
+            AttributeType: S
+        KeySchema:
+          -
+            AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+    DynamoDBIamPolicy:
+      Type: AWS::IAM::Policy
+      DependsOn: PostsDynamo
+      Properties:
+        PolicyName: lambda-dynamodb
+        PolicyDocument:
+          Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Action:
+                - dynamodb:GetItem
+                - dynamodb:PutItem
+                - dynamodb:Scan
+                - dynamodb:Query
+              Resource: arn:aws:dynamodb:*
+        Roles:
+          - Ref: IamRoleLambdaExecution
